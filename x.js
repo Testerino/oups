@@ -1,4 +1,4 @@
-document.onload = function(){
+window.onload = function(){
   var cookies = document.cookie;
   var userAgent = navigator.userAgent;
   var user = document.getElementsByTagName("strong")[0].textContent.replace(/\s+/g, '');
